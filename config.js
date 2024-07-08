@@ -27,7 +27,8 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://gi
 
 global.devs = "923192173398" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923192173398";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "263712196152
+  ";
 
 
 
@@ -42,7 +43,7 @@ global.warncount = process.env.WARN_COUNT || 5,
 global.disablepm = process.env.DISABLE_PM || "false",
 global.MsgsInLog = process.env.MSGS_IN_LOG|| "false", // "true"  to see messages , "log" to open logs , "false" to hide logs messages
 global.userImages= process.env.USER_IMAGES|| "text",
-global.waPresence= process.env.WAPRESENCE ||  "set according to your need" ; // 'unavailable' | 'available' | 'composing' | 'recording' | 'paused'
+global.waPresence= process.env.WAPRESENCE ||  "available " ; // 'unavailable' | 'available' | 'composing' | 'recording' | 'paused'
 
 
 //========================= [ AUTO READ MSGS & CMDS ] =========================\\
@@ -61,7 +62,7 @@ global.api_smd = "https://api-smd-1.vercel.app"
 global.scan = "https://myqr-43bb863fa5eb.herokuapp.com/";
 
 
-global.SESSION_ID = process.env.SESSION_ID ||  "" ;
+global.SESSION_ID = process.env.SESSION_ID ||  "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiYUU0UFg5NVFmZGM3YnpGV1ZYWXd6ZHhHOUFCSEtBa1p2RjdwVkh4aHdXaz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiZ0tuNUFqZjA1S1B5NjBKS1hTMnBFQks3a2RSd3I5YkliVTBZeUFBNDd4cz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJzR2l5TUhZOFVRTHRCcUVMUUUrT2FiaGpSNnliZEhYdENYcVhIZkt2SmtvPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJNYnluTWMwZEduWjMwaE56MStQL1NUYWFNTHh5Q3JUWEV1T3VjVm4xU1JBPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkVQVVkvVWhaR2JDSm1XenY0QjlmNmwvUXRCbXdNUmkyd1dWeGZYS0NWR009In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjdtYkFjTHNjU01vNlVuRnBRbGdKUDRobWJ4Y1lTSXpIMlovTm1VQisydzA9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiMk1rdTlZaWRaSVAxOGRiME84bEt5ZWIyS0JLM3UvelgvL2Vvc01uK0pVUT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiTUNBZTlpSGY2azZqaHZjek1TTFRRUjZybllkeFAwdURha1NnUnp3dnhRZz0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImNpaXUzdElqMWFEUGJLMkNscXJwa3lzbC93bXU2SGxUeGZBMndDZXFKOHErWDZxdXZJRkJGbm94Y0tBSFlwd2o4SHVIMmh3bWlVeWI5S0YyVG5URUNBPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6NCwiYWR2U2VjcmV0S2V5IjoiK2pVd2ZLdXVwRm9zby95b0pBM3pMQ1N6b3drOHBGbmFCb3FMWXpBazM4dz0iLCJwcm9jZXNzZWRIaXN0b3J5TWVzc2FnZXMiOltdLCJuZXh0UHJlS2V5SWQiOjMxLCJmaXJzdFVudXBsb2FkZWRQcmVLZXlJZCI6MzEsImFjY291bnRTeW5jQ291bnRlciI6MCwiYWNjb3VudFNldHRpbmdzIjp7InVuYXJjaGl2ZUNoYXRzIjpmYWxzZX0sImRldmljZUlkIjoiVTdzUlYwTXFRZVNBa3NNampQQ3RRQSIsInBob25lSWQiOiI0NDQ4NjUyMS0wZDFhLTQ4YTItYmFjNC1iOTdiN2Q1MDUyOTEiLCJpZGVudGl0eUlkIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoicVV5dXVOMUdzS0Evb1J3RHl4T3FNZFN4ZWY0PSJ9LCJyZWdpc3RlcmVkIjp0cnVlLCJiYWNrdXBUb2tlbiI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImxXNjR3UVhBNlBrNTFLYm5SL0V3SWh1R3VVbz0ifSwicmVnaXN0cmF0aW9uIjp7fSwicGFpcmluZ0NvZGUiOiJNOVlaTjE3SCIsIm1lIjp7ImlkIjoiMjYzNzE1OTA3NDY4OjM4QHMud2hhdHNhcHAubmV0In0sImFjY291bnQiOnsiZGV0YWlscyI6IkNOL0UrdThIRUw2Y2xiUUdHQUVnQUNnQSIsImFjY291bnRTaWduYXR1cmVLZXkiOiJERXJQcW5VOURrTDZvd1JzWVJ4NVhpRVFkOTBlRDhrcGwxMnI2cXZFdWp3PSIsImFjY291bnRTaWduYXR1cmUiOiJNQ2wrWHhWYWxCK0N6dUVTWGdYZk5zeEE0VGFZWHJzR09TMnhmMy92OS9IaTdMbENJcC95UFc2ZHZJMjVFTEo0NVNMWnZaMUYrZnc5a0hKTWpVM0dBdz09IiwiZGV2aWNlU2lnbmF0dXJlIjoidjN6RHRGUDZZN25UbkY0Q0t5ekpPUmMwMWNtQ0ttdDg4dE9WRXpXVjVHL3dvNlIwMjN3dkdmSmlXYnVTclArNjZtamU4bURlWlcwbG1ONm5nWHVRQWc9PSJ9LCJzaWduYWxJZGVudGl0aWVzIjpbeyJpZGVudGlmaWVyIjp7Im5hbWUiOiIyNjM3MTU5MDc0Njg6MzhAcy53aGF0c2FwcC5uZXQiLCJkZXZpY2VJZCI6MH0sImlkZW50aWZpZXJLZXkiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJCUXhLejZwMVBRNUMrcU1FYkdFY2VWNGhFSGZkSGcvSktaZGRxK3FyeExvOCJ9fV0sInBsYXRmb3JtIjoiYW5kcm9pZCIsImxhc3RBY2NvdW50U3luY1RpbWVzdGFtcCI6MTcyMDAxMjM2NX0=" ;
 
 
 module.exports = {
@@ -76,10 +77,10 @@ module.exports = {
   author : process.env.PACK_AUTHER|| "𝗪𝗔𝗦𝗜 ",
   packname: process.env.PACK_NAME || "♥️",
   botname : process.env.BOT_NAME  || "𝗪𝗔𝗦𝗜 𝗠𝗗",
-  ownername:process.env.OWNER_NAME|| "It's 𝗜𝗧𝗫𝗫𝗪𝗔𝗦𝗜",
+  ownername:process.env.OWNER_NAME|| "It's Tom",
 
 
-  errorChat : process.env.ERROR_CHAT || "",
+  errorChat : process.env.ERROR_CHAT || "263712196152",
   KOYEB_API : process.env.KOYEB_API  || "false",
 
   REMOVE_BG_KEY : process.env.REMOVE_BG_KEY  || "neLbXXrp8bSDcohnp1CW5UEa",
